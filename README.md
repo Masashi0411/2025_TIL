@@ -1,4 +1,4 @@
-# TIL Today I Learned
+# TIL Today I Learned !!
 こちらのリポジトリは学習用のリポジトリです。
 2024/12/19から毎日休まず勉強してきました！
 githubにも記録を残し、草を生やしてきます！！
