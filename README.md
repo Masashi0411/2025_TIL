@@ -7,6 +7,35 @@ githubにも記録を残し、草を生やしてきます！！
 
 # 日報
 
+**日付**：2025/11/26
+**学習時間**：1.0時間
+
+## 学習内容
+
+* RSpec の初期セットアップ（rspec:install）
+* spec ディレクトリの権限エラーを chown で解決
+* FactoryBot の設定追加（rails_helper に include）
+* FactoryBot の tips ファクトリを作成（必須項目をすべて補完）
+* travel_to が使えずエラー → ActiveSupport::Testing::TimeHelpers を include で解決
+* assigns が使えずエラー → request spec 標準の書き方（response.body を使う）に変更
+* 最新のエラーで `/tips/today` が 500 エラーを返していることが判明 → コントローラ側に原因あり
+* 明日は show_today の前後 TIP 処理（prev/next）などを切り分けて原因特定予定
+
+## 次回やること
+
+* TipsController#show_today のエラー箇所の特定
+* 一旦 prev/next 部分をコメントアウトしてテストを通す
+* テストが緑になる状態まで持っていく
+
+## つぶやき
+
+テスト環境まわりをゼロから整えられたのは大きな前進。
+一歩ずつ理解しながら進められていて、すごく良い流れ。
+
+***
+
+# 日報
+
 **日付**：2025/11/25
 **学習時間**：0.5時間
 
